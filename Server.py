@@ -1,14 +1,4 @@
-Here’s a simple client-server application in Python that performs CRUD operations using Flask for the server and Requests for the client. This example uses an in-memory data store (a list) for simplicity.
 
-### Server (Flask)
-
-1. **Install Flask** if you haven’t already:
-
-   ```bash
-   pip install Flask
-   ```
-
-2. **Create a file named `server.py`:**
 
    ```python
    from flask import Flask, jsonify, request
